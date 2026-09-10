@@ -1,3 +1,4 @@
+
 # Paleta de Colores - Actividad Dos (SaaS Landing Page)
 
 Para la segunda actividad, se ha construido un diseño tipo **Software as a Service (SaaS)** utilizando un tema claro (Light Theme) enfocado en la usabilidad y la limpieza visual.
