@@ -105,3 +105,15 @@
     font-weight: 600;
     text-decoration: none;
 }
+
+.hero-image-box {
+    box-sizing: border-box;
+    width: 50%;
+    height: 320px;
+    background-color: #ffffff;
+    border: 1px solid #e2e8f0;
+
+    background-image: url('images/hero.jpg');
+    background-size: cover;
+    background-position: center;
+}
