@@ -145,4 +145,47 @@ body {
     transition: opacity 0.3s;
 }
 
+.features {
+    padding: 4rem 2rem;
+}
 
+.features_container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    gap: 2rem;
+}
+
+.features_card {
+    flex: 1;
+    background-color: var(--bg-white);
+    border: 1px solid var(--border-color);
+    border-radius: 16px;
+    padding: 1.5rem;
+    transition: box-shadow 0.3s;
+}
+
+.features_card:hover {
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.05);
+}
+
+.features_card-img {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+    border-radius: 12px;
+    margin-bottom: 1.5rem;
+}
+
+.features_card-title {
+    font-size: 1.25rem;
+    font-weight: 700;
+    color: var(--text-dark);
+    margin-bottom: 0.75rem;
+}
+
+.features_card-text {
+    font-size: 0.95rem;
+    color: var(--text-body);
+    line-height: 1.6;
+}
