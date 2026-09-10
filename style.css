@@ -66,32 +66,32 @@ main {
 }
 
 #inicio {
-    padding: 12px 0 16px;
+    padding: 25px 0 20px;
 }
 
 .contenido-principal {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    gap: 40px;
-    padding: 0 0 15px;
+    gap: 50px;
 }
 
 .texto-principal {
-    width: 52%;
+    width: 50%;
 }
 
 .texto-principal h1 {
-    font-size: 29px;
-    line-height: 1.1;
-    margin-bottom: 10px;
+    font-size: 34px;
+    line-height: 1.15;
+    margin: 0 0 15px;
 }
 
 .texto-principal p {
     color: #617089;
-    font-size: 12px;
-    line-height: 1.5;
-    max-width: 380px;
+    font-size: 13px;
+    line-height: 1.6;
+    max-width: 400px;
+    margin-bottom: 18px;
 }
 
 .boton-principal {
@@ -99,9 +99,9 @@ main {
     background: #172033;
     color: white;
     text-decoration: none;
-    padding: 8px 14px;
+    padding: 10px 17px;
     border-radius: 4px;
-    font-size: 11px;
+    font-size: 12px;
     font-weight: bold;
 }
 
