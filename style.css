@@ -178,3 +178,28 @@
     line-height: 1.6;
     margin: 0;
 }
+.feature-card {
+    display: flex;
+    flex-direction: column;
+    min-height: 220px;
+}
+
+.feature-icon {
+    width: 42px;
+    height: 42px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #f8fafc;
+    border: 1px solid #e2e8f0;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+.feature-title {
+    margin-bottom: 12px;
+}
+
+.feature-description {
+    margin-top: auto;
+}
