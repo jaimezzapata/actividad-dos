@@ -21,3 +21,23 @@
     border-bottom: 1px solid #e2e8f0;
     box-sizing: border-box;
 }
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin: 0;
+}
+
+.logo-circle {
+    width: 30px;
+    height: 30px;
+    background-color: #10b981; /* Emerald 500 */
+    border-radius: 50%;
+}
+
+.logo-text {
+    margin: 0;
+    font-weight: bold;
+    font-size: 1.2rem;
+    color: #0f172a;
+}
