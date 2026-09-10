@@ -75,3 +75,17 @@ body {
 .header__nav-link:hover {
     color: var(--text-dark);
 }
+
+.header_btn{
+    text-decoration: none;
+    background-color: var(--accent-green);
+    color: var(--bg-white);
+    padding: 0.6rem 1.5rem;
+    border-radius: 8px;
+    font-weight: 600;
+    transition: opacity 0.3s;
+}
+
+.header_btn:hover{
+    opacity: 0.9s;
+}
