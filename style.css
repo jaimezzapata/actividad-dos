@@ -152,8 +152,8 @@ main {
 }
 
 footer {
-    margin-top: 72px;
-    padding: 8px;
+    margin-top: 70px;
+    padding: 16px;
     text-align: center;
     background: white;
     border-top: 1px solid #e5e7eb;
@@ -162,5 +162,5 @@ footer {
 footer p {
     margin: 0;
     color: #9aa4b2;
-    font-size: 9px;
+    font-size: 10px;
 }
