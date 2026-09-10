@@ -169,3 +169,21 @@
 .feature-image-speed {
     background-image: url('images/feat_3.jpg');
 }
+
+.footer-container {
+    box-sizing: border-box;
+    width: 100%;
+    padding: 30px 60px;
+    background-color: #f8fafc;
+    border-top: 1px solid #e2e8f0;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-text {
+    margin: 0;
+    color: #94a3b8;
+    font-size: 14px;
+}
