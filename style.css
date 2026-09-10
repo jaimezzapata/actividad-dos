@@ -56,3 +56,15 @@ body {
     font-size: 15px;
     font-weight: 500;
 }
+.btn-register {
+    text-decoration: none;
+    background-color: #10b981;
+    color: #ffffff;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 6px;
+    font-size: 14px;
+    font-weight: 600;
+}
