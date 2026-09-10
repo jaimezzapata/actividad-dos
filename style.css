@@ -31,3 +31,32 @@ body {
     padding-left: 24px;
     padding-right: 24px;
 }
+
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-size: 20px;
+    font-weight: 700;
+    color: #0f172a;
+    text-decoration: none;
+}
+
+.logo-icon {
+    color: #10b981;
+    font-size: 18px;
+}
+
+.nav-links {
+    display: flex;
+    align-items: center;
+    gap: 32px;
+    list-style: none;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: #64748b;
+    font-size: 15px;
+    font-weight: 500;
+}
