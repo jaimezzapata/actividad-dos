@@ -120,3 +120,17 @@
   line-height: 1.6;
   margin-bottom: 2rem;
 }
+
+.hero-image {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+}
+
+.hero-image img {
+  width: 100%;
+  max-width: 500px;
+  height: auto;
+  border-radius: 0.75rem;
+  object-fit: cover;
+}
