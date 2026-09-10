@@ -164,3 +164,35 @@ body {
     color: #9aa4b2;
     font-size: 10px;
 }
+
+@media (max-width: 800px) {
+    .navegacion {
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    .menu {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .contenido-principal {
+        flex-direction: column;
+    }
+
+    .texto-principal {
+        width: 100%;
+    }
+
+    .imagen-principal {
+        width: 100%;
+    }
+
+    .tarjetas {
+        flex-direction: column;
+    }
+
+    .tarjeta {
+        width: 100%;
+    }
+}
