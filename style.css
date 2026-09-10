@@ -89,3 +89,35 @@ body {
 .header_btn:hover{
     opacity: 0.9s;
 }
+
+.hero {
+    padding: 4rem 2rem;
+}
+
+.hero_container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    gap: 3rem;
+}
+
+.hero_content {
+    flex: 1;
+}
+
+.hero_title {
+    font-size: 3rem;
+    font-weight: 800;
+    color: var(--text-dark);
+    line-height: 1.2;
+    margin-bottom: 1.5rem;
+}
+
+.hero_subtitle {
+    font-size: 1.1rem;
+    color: var(--text-subtitle);
+    margin-bottom: 2rem;
+    max-width: 480px;
+}
+
