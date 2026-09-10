@@ -196,3 +196,19 @@ body {
         width: 100%;
     }
 }
+
+.boton-principal:hover {
+    opacity: 0.9;
+}
+
+.boton-registro:hover {
+    opacity: 0.9;
+}
+
+.tarjeta:hover {
+    transform: translateY(-2px);
+}
+
+.logo-icon {
+    flex-shrink: 0;
+}
