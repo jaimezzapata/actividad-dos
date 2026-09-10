@@ -137,7 +137,7 @@ body {
 .hero_btn {
 
     text-decoration: none;
-    background-color: var(--text-black);
+    background-color: var(--text-dark);
     color: var(--bg-white);
     padding: 0.6rem 1.5rem;
     border-radius: 8px;
