@@ -1,2 +1,57 @@
 
 /* Estilos - Actividad Dos (CloudSphere) */
+
+.header-container {
+    box-sizing: border-box;
+    width: 100%;
+    padding: 20px 60px;
+    background-color: #ffffff;
+    border-bottom: 1px solid #e2e8f0;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo-container {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.logo-icon {
+    box-sizing: border-box;
+    width: 32px;
+    height: 32px;
+    background-color: #10b981;
+}
+
+.logo-text {
+    color: #0f172a;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.nav-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+
+.nav-link {
+    color: #64748b;
+    font-size: 15px;
+    font-weight: 500;
+    text-decoration: none;
+}
+
+.btn-register {
+    box-sizing: border-box;
+    padding: 12px 24px;
+    background-color: #10b981;
+    color: #ffffff;
+    font-size: 15px;
+    font-weight: 600;
+    text-decoration: none;
+}
