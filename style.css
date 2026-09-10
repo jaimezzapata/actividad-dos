@@ -117,3 +117,34 @@
     background-size: cover;
     background-position: center;
 }
+.features-section {
+    box-sizing: border-box;
+    width: 100%;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 30px;
+}
+
+.feature-card {
+    box-sizing: border-box;
+    width: 33%;
+    padding: 24px;
+    background-color: #ffffff;
+    border: 1px solid #e2e8f0;
+}
+
+.feature-title {
+    margin: 0 0 10px 0;
+    color: #1e293b;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.feature-description {
+    margin: 0;
+    color: #64748b;
+    font-size: 15px;
+    line-height: 1.5;
+}
