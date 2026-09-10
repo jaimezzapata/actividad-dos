@@ -1,1 +1,14 @@
+/* Tema Claro - SaaS Landing Page */
+/* Strict rules: Independent classes only, Flexbox, Box Model */
 
+.body-wrapper {
+    margin: 0;
+    padding: 0;
+    background-color: #f8fafc; /* Slate 50 */
+    font-family: 'Inter', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    overflow: hidden;
+}
