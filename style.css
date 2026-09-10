@@ -1,1 +1,93 @@
+css
 
+:root {
+  --bg-page: #f8fafc;
+  --bg-component: #ffffff;
+  --text-title: #1e293b;
+  --text-logo-dark: #0f172a;
+  --accent-emerald: #10b981;
+  --text-nav: #64748b;
+  --border-light: #e2e8f0;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+.header {
+  width: 100%;
+  background-color: var(--bg-component);
+  border-bottom: 1px solid var(--border-light);
+}
+
+
+.nav-container {
+  max-width: 1200px;
+  margin: auto;
+  padding: 1.5rem;
+  height: 4.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+
+.nav-logo {
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+}
+
+.logo-icon {
+  width: 1.25rem;
+  height: 1.25rem;
+  background-color: var(--accent-emerald);
+  border-radius: 50%;
+  display: inline-block;
+}
+
+.logo-title {
+  color: var(--text-logo-dark);
+  font-size: 1.25rem;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+
+.nav-menu {
+  display: flex;
+  align-items: center;
+  gap: 2.5rem;
+  list-style: none;
+}
+
+.nav-link {
+  color: var(--text-nav);
+  text-decoration: none;
+  font-size: 0.95rem;
+  font-weight: 500;
+  transition: color 0.2s ease;
+}
+
+.nav-link:hover {
+  color: var(--text-title);
+}
+
+.btn-primary {
+  background-color: var(--accent-emerald);
+  color: var(--bg-component);
+  border: none;
+  padding: 0.65rem 1.4rem;
+  font-size: 0.9rem;
+  font-weight: 600;
+  border-radius: 0.5rem;
+  cursor: pointer;
+  transition: opacity 0.2s ease;
+}
+
+.btn-primary:hover {
+  opacity: 0.9;
+}
