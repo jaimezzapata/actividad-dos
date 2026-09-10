@@ -1,1 +1,157 @@
+* {
+    box-sizing: border-box;
+}
 
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #f5f8fa;
+    color: #172033;
+}
+
+header {
+    background: #ffffff;
+    border-bottom: 1px solid #e5e7eb;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 12px 26px;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 7px;
+    font-weight: bold;
+}
+
+.logo-icon {
+    width: 17px;
+    height: 17px;
+    border-radius: 50%;
+    background: #14b887;
+}
+
+.menu {
+    display: flex;
+    align-items: center;
+    gap: 25px;
+}
+
+.menu a {
+    text-decoration: none;
+    color: #536078;
+    font-size: 12px;
+}
+
+.boton-registro {
+    background: #12ad7d;
+    color: white;
+    padding: 6px 14px;
+    border-radius: 4px;
+}
+
+main {
+    width: 70%;
+    margin: 0 auto;
+}
+
+#inicio {
+    padding: 12px 0 16px;
+}
+
+.contenido-principal {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 40px;
+    padding: 0 0 15px;
+}
+
+.texto-principal {
+    width: 52%;
+}
+
+.texto-principal h1 {
+    font-size: 29px;
+    line-height: 1.1;
+    margin-bottom: 10px;
+}
+
+.texto-principal p {
+    color: #617089;
+    font-size: 12px;
+    line-height: 1.5;
+    max-width: 380px;
+}
+
+.boton-principal {
+    display: inline-block;
+    background: #172033;
+    color: white;
+    text-decoration: none;
+    padding: 8px 14px;
+    border-radius: 4px;
+    font-size: 11px;
+    font-weight: bold;
+}
+
+.imagen-principal {
+    width: 42%;
+}
+
+.imagen-principal img {
+    width: 100%;
+    height: 198px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+.tarjetas {
+    display: flex;
+    gap: 12px;
+}
+
+.tarjeta {
+    background: white;
+    border: 1px solid #e1e6eb;
+    border-radius: 8px;
+    padding: 8px;
+    flex: 1;
+}
+
+.tarjeta img {
+    width: 100%;
+    height: 68px;
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+.tarjeta h2 {
+    font-size: 11px;
+    margin: 8px 0 5px;
+}
+
+.tarjeta p {
+    color: #718096;
+    font-size: 9px;
+    line-height: 1.4;
+    margin: 0;
+}
+
+footer {
+    margin-top: 72px;
+    padding: 8px;
+    text-align: center;
+    background: white;
+    border-top: 1px solid #e5e7eb;
+}
+
+footer p {
+    margin: 0;
+    color: #9aa4b2;
+    font-size: 9px;
+}
